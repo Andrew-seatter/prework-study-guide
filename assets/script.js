@@ -1,5 +1,9 @@
-var topics = "HTML";
+var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 
+for(var x = 0; x < topics.length; x++){
+    console.log(topics[x]);
+}
+/*
 if (topics === 'HTML') {
     console.log("Let's study HTML!");
 } else if (topics === 'CSS') {
@@ -11,3 +15,4 @@ if (topics === 'HTML') {
 } else {
     console.log('Please try again!');
 }
+*/
